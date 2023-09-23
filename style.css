@@ -14,6 +14,31 @@ nav a{
     margin-left: 25%;
     color:white;
 }
+  #url{
+        margin-top: 2rem;
+        display: block;
+        margin-left: 9%;
+        margin-right: 10%;
+        width: 80%;
+        height: 2rem;
+    }
+    #sub{
+        display: block;
+        justify-content: center;
+        justify-self: center;
+        margin: auto;
+        margin-top: 1.5rem;
+
+    }
+
+    #qr_img{
+        display: block;
+        justify-self: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 3rem;
+        
+    }
 
 
 a:hover{
