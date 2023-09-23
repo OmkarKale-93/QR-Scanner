@@ -1,0 +1,55 @@
+nav{
+    color: aliceblue;
+    background-color: brown;
+    height: 30px;
+    justify-content: center;
+}
+
+nav a{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 30%;
+    
+}
+
+
+a:hover{
+    background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+    nav a{
+        margin-left: 25%;
+    }
+    a:hover{
+        color: black;
+    }
+    #url{
+        margin-top: 2rem;
+        display: block;
+        margin-left: 9%;
+        margin-right: 10%;
+        width: 80%;
+        height: 2rem;
+    }
+    #sub{
+        display: block;
+        justify-content: center;
+        justify-self: center;
+        margin: auto;
+        margin-top: 1.5rem;
+
+    }
+
+    #qr_img{
+        display: block;
+        justify-self: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 3rem;
+        
+    }
+  }
